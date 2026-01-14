@@ -68,20 +68,20 @@ height: 676px;
 }
 .bannertext h3{
     font-size: 3em;
-    font-weight: 600;
+    font-weight: 500;
     width: 177px;
-    color: 71 71 71 1;
+    color: rgba(71 71 71 1);
 }
 .bannertext h1{
     font-size: 5em;
-    font-weight: 700;
+    font-weight: 600;
     padding-top: 5px;
     width: 498px;
 }
 .bannertext p{
     width: 585px;
     color: rgba(117, 117, 117, 1);
-    font-size: 18px;
+    font-size: 1em;
 font-weight: 400;
 line-height: 30px;
 padding-top: 20px;
