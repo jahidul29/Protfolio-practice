@@ -1,49 +1,99 @@
 * {
-    max-width: 1600px;
     margin: 0;
     border: 0;
     padding: 0;
 }
-
-
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-optical-sizing: auto;}
+.navbar {
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.color-orange{
+    color: rgba(253, 110, 10, 1);}
+
+.header{
+    background: rgba(255, 248, 243, 1);
+    background-image: url(images/developer.png);
+    background-position: 23px;
+    background-repeat: no-repeat;
+}    
+.navlink{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    margin-top: 50px;
+    margin-right: 230px;
+    align-items: center;
+    font-size: 20px;
 }
 
-.color-orange{
-    background-color: #FD6E0A;
+.logo {
+    max-width: 121px;
+font-size: 45px;
+font-weight: 800;
+margin-top: 51px;
+margin-left: 230px;
 }
 
 .button{
-    padding: 10px 25px;
-    background-color: #FD6E0A;
+    background-color: rgba(253, 110, 10, 1);
+    padding: 10px 30px;
     border-radius: 5px;
+    color: white;
 }
-.navbar{
+
+.banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-decoration: none;
-    background-color: #FFF8F3;
-    padding-bottom: 30px;
+    padding-right: 70px;
+    background-image: url(images/header_bg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
-.navlogor{
-    color: #FD6E0A;
+.bannertext , .bannerbtn {
+    margin-left: 230px;
 }
-.navbar-logo{
-    font-size: x-large;
-    margin: 30px 1px 1px 230px;
+
+.bannerimg{
+width: 584px;
+height: 676px;
+    margin-right: 20px;
+    vertical-align: bottom;
+
 }
-.navbar-link ul{
-    display: flex;
-    list-style: none;
-    color: black;
-    gap: 50px;
-    align-items: center;
-    margin: 30px 230px 1px 1px ;
+.bannertext h3{
+    font-size: 3em;
+    font-weight: 600;
+    width: 177px;
+    color: 71 71 71 1;
 }
-.navbar a{
-    text-decoration: none;
-    color: inherit;
+.bannertext h1{
+    font-size: 5em;
+    font-weight: 700;
+    padding-top: 5px;
+    width: 498px;
 }
+.bannertext p{
+    width: 585px;
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-top: 20px;
+}
+.bannerbtn{
+    padding-top: 30px;
+}
+.contactbtn{
+    border: 1px solid rgba(253, 110, 10, 1);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgba(253, 110, 10, 1);
+    margin-left: 10px;
+    background-color: transparent;
+}
+
